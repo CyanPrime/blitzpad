@@ -14,15 +14,12 @@ blitzPad.addOnListItem(
 	"test data",
 	function(data){
 		console.log(data);
-		me.socket.emit('spawn_projectile', { team: me.team, gx: me.gx, gy: me.gy, drawID: 0, damage: 30, moveDelayMax: 0.05 });
+		//fire a Gamma Ray.
 	}
 );
 
 function hadoken(data){
-	if(me.fireDelay <= 0.0) {
-		me.socket.emit('spawn_projectile', { team: me.team, gx: me.gx, gy: me.gy, drawID: 0, damage: 13, moveDelayMax: 0.3 });
-		me.fireDelay = me.fireDelayMax;
-	}
+	//fire a hadoken.
 }
 
 //if the commandStr equals "236C" after a confirmed commandEndPressPoll pass execicute the function called hadoken. Pass 0 to data because it's not used.
