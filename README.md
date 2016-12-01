@@ -1,4 +1,5 @@
 # blitzpad
+By William Starkovich.
 
 ### initialize the BlitzPad object.
 ```javascript
