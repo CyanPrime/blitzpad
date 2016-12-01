@@ -30,7 +30,7 @@ blitzPad.addOnListItem("236C", 0, hadoken);
 
 ### setup the event listeners.
 
-You'll want to call this inside '$( document ).ready(function(){ /*HERE*/ });'
+You'll want to call this inside `$( document ).ready(function(){ /*HERE*/ });`
 
 ```javascript
 //setup the event listeners.
@@ -39,7 +39,7 @@ blitzPad.setEventListeners();
 
 ### Poll for updates.
 
-You'll want to call this inside your 'requestAnimationFrame' loop.
+You'll want to call this inside your `requestAnimationFrame` loop.
 
 ```javascript
 //use this to poll the gamepad in Google Chrome.
