@@ -22,7 +22,8 @@ function hadoken(data){
 	//fire a hadoken.
 }
 
-//if the commandStr equals "236C" after a confirmed commandEndPressPoll pass execicute the function called hadoken. Pass 0 to data because it's not used.
+/*if the commandStr equals "236C" after a confirmed commandEndPressPoll 
+pass execicute the function called hadoken. Pass 0 to data because it's not used.*/
 blitzPad.addOnListItem("236C", 0, hadoken);
 ```
 
